@@ -6,8 +6,8 @@ public class EvenOddGame {
 	public static void main(String[] args) {
 		Scanner Scanner = new Scanner(System.in);
 		int value = (int)(Math.random()*2);
-		
-		System.out.println("짝수일까요? 홀수일까요?");
+		System.out.println("짝수는 0 홀수는 1");
+		System.out.println("짝수일까요? 홀수일까요? ");
 		
 		int odd = value %2;
 		int input = Scanner.nextInt();
